@@ -24,6 +24,7 @@ public class BirdJump : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if(Score.score > Score.bestScore) Score.bestScore = Score.score;
         SceneManager.LoadScene("GameOver");
     }
 }

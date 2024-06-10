@@ -7,12 +7,14 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     public static int score = 0;
-    TextMeshPro text;
+    public static int bestScore = 0;
+    private TMP_Text text;
+
     // Start is called before the first frame update
     void Start()
     {
-        text = this.gameObject.GetComponent<TextMeshPro>();
-        Debug.Log(text);
+        score = 0;
+        text = this.gameObject.GetComponent<TMP_Text>();
     }
 
     // Update is called once per frame
