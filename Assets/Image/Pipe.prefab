@@ -270,10 +270,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6796738541998709428}
   - component: {fileID: 5756877282819327668}
-  - component: {fileID: 2012204144668213560}
   m_Layer: 0
   m_Name: ScoreUp
-  m_TagString: Untagged
+  m_TagString: ScoreUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -287,7 +286,7 @@ Transform:
   m_GameObject: {fileID: 6368695929686692127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.85, y: -0.96, z: 0}
+  m_LocalPosition: {x: 6.2, y: -6.81, z: 0}
   m_LocalScale: {x: 1.5445, y: 1.5445, z: 1.5445}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -325,7 +324,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0037866682, y: -0.09081805}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -338,18 +337,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6743635, y: 1.1816356}
   m_EdgeRadius: 0
---- !u!114 &2012204144668213560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6368695929686692127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b11c05f364edd048a9024946e112e0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6823420955000344123
 GameObject:
   m_ObjectHideFlags: 0

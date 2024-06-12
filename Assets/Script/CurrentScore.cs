@@ -9,7 +9,7 @@ public class CurrentScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        text = this.gameObject.GetComponent<TMP_Text>();
-        text.text = "Score: " + Score.score.ToString();
+/*        text = this.gameObject.GetComponent<TMP_Text>();
+        text.text = "Score: " + Score.score.ToString();*/
     }
 }
