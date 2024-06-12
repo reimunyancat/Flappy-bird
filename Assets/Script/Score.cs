@@ -7,7 +7,7 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     public static int score = 0;
-    public static int bestScore = 0;
+    public static Dictionary<float, int> bestScores = new();
     private TMP_Text text;
 
     // Start is called before the first frame update

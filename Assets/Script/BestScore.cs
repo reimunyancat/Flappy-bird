@@ -10,6 +10,6 @@ public class BestScore : MonoBehaviour
     void Start()
     {
         text = this.gameObject.GetComponent<TMP_Text>();
-        text.text = "Best Score: " + Score.bestScore.ToString();
+        text.text = "Best Score: " + (Score.bestScores.ContainsKey(Difficulty.difficulty) ? Score.bestScores[Difficulty.difficulty] : 0);
     }
 }
