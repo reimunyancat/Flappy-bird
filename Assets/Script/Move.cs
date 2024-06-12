@@ -14,6 +14,6 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.left * pipeSpeed * Time.deltaTime;
+        transform.position += Vector3.left * pipeSpeed * Difficulty.difficulty * Time.deltaTime;
     }
 }

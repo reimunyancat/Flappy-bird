@@ -10,6 +10,6 @@ public class CurrentScore : MonoBehaviour
     void Start()
     {
         text = this.gameObject.GetComponent<TMP_Text>();
-        text.text = "Score: " + (Score.score-1).ToString();
+        text.text = "Score: " + Score.score.ToString();
     }
 }

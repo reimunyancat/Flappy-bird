@@ -17,7 +17,7 @@ public class MakePipe : MonoBehaviour
     void Update()
     {
         counter += Time.deltaTime;
-        if (counter > timer) {
+        if (counter > timer/Difficulty.difficulty) {
             GameObject newpipe = Instantiate(pipe);
             newpipe.transform.position = new Vector3(0, Random.Range(-1.4f, 5.5f), 0);
             counter = 0;
